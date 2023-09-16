@@ -34,13 +34,14 @@
 header{
     position: fixed;
     width: 100%;
+    height: max-content;
     top: 0;
     right: 0;
     z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: transparent;
+    background: black;
     padding: 28px 12%;
     transition: all .50s ease;
 }
@@ -107,7 +108,7 @@ header{
         height:max-content;
         display:flex;
         border-radius: 11px;
-        background: #742f74;
+        background: #a74ca7;
         flex-direction: column;
         justify-content: flex-start;
         transition: all .50s ease;
@@ -119,7 +120,7 @@ header{
         transition: all .20s ease;
     }
     .navbar.open{
-        right: 2%;
+        right: 2.52%;
     }
 }
 
@@ -171,7 +172,6 @@ header{
 .sub_head{
     margin: 10px 5px;
 }
-
 #movetoTop {
     display: none;
     position: fixed;
